@@ -11,7 +11,7 @@ ul{
   list-style-type: none;
 }
 .navContainer{
-  background-image: url('http://www.zingerbug.com/Backgrounds/background_images/black_diagonal_stripes_seamless_background_pattern.jpg');
+  background-image: url('images/navBackground.jpg');
   display:block;
   float: left;
   position: fixed;
@@ -64,7 +64,7 @@ a:hover{
 }
 
 .social{
-  background: url('images/spriteIcons.css') no-repeat;
+  background: url('images/spriteIcons.png') no-repeat;
   margin-left: 0;
 }
 

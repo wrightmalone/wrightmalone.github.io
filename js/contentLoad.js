@@ -1,6 +1,9 @@
-$(window).load(function(){
 
-	$("#page").load("contentPages/main.html");
+$('.page').load('contentPages/main.html');
 
-
-})
+$('a').on('click', function(){
+	event.preventDefault();
+	var pageToLoad = $(this).closest('li').data('page');
+	$('.page').load(pageToLoad);
+	console.log(pageToLoad);
+});
