@@ -39,6 +39,7 @@ a{
 a:hover{
   color: white;
 }
+
 .left-float{
   float: left;
   margin: 5px 15px 0 0;
@@ -63,7 +64,7 @@ a:hover{
 }
 
 .social{
-  background: url('http://brandonsetter.com/demos/super-massive-css-sprite-social-icon-set/supermassivecsspriteicons.png') no-repeat;
+  background: url('images/spriteIcons.css') no-repeat;
   margin-left: 0;
 }
 
