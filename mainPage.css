@@ -6,6 +6,7 @@ body{
   color: rgba(80, 68, 70, .8);
   line-height: 1.75em;
   font-weight: 300;
+  background-color: rgba(211,211,211,.7);
 }
 ul{
   list-style-type: none;
@@ -78,6 +79,7 @@ a:hover{
 .title img{
   margin-left: -20px;
   width: 150px;
+  float: none;
 }
 
 .title div{
@@ -86,6 +88,11 @@ a:hover{
 
 img{
   float: left;
+  width: 200px;
+  margin: 15px;
+}
+.page img{
+  border: gray 3px solid;
 }
 .secondaryNavTabs{
   margin-top: 40px;

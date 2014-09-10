@@ -1,15 +1,11 @@
-<script type="text/javascript">
-	var dir = "images/photos_page";
-	var fileextension = ".png";
-	$.ajax({
-	    //This will retrieve the contents of the folder if the folder is configured as 'browsable'
-	    url: dir,
-	    success: function (data) {
-	        //Lsit all png file names in the page
-	        $(data).find("a:contains(" + fileextension + ")").each(function () {
-	            var filename = this.href.replace(window.location.host, "").replace("http:///", "");
-	            $('.page').append($("<img src=" + dir + filename + "></img>"));
-	        });
-	    }
-	});
-</script>
+<div class="clearfix">
+	<img src="images/photos_page/photos_lab_1.JPG"></img>
+	<img src="images/photos_page/photos_tanks_4.JPG"></img>
+	<img src="images/photos_page/photos_lab_2.JPG"></img>
+	<img src="images/photos_page/photos_tanks_2.JPG"></img>
+	<img src="images/photos_page/photos_lab_3.JPG"></img>
+	<img src="images/photos_page/photos_lab_4.JPG"></img>
+	<img src="images/photos_page/photos_lab_5.JPG"></img>
+	<img src="images/photos_page/photos_tanks.JPG"></img>
+	<img src="images/photos_page/photos_tanks_3.JPG"></img>
+</div>
