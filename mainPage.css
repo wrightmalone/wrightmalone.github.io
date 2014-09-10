@@ -1,0 +1,140 @@
+.clearfix:before,.clearfix:after { content:""; display:table; }
+.clearfix:after { clear:both; }
+
+body{
+  font-family: "museo";
+  color: rgba(80, 68, 70, .8);
+  line-height: 1.75em;
+  font-weight: 300;
+}
+ul{
+  list-style-type: none;
+}
+.navContainer{
+  background-image: url('http://www.zingerbug.com/Backgrounds/background_images/black_diagonal_stripes_seamless_background_pattern.jpg');
+  display:block;
+  float: left;
+  position: fixed;
+  top: -20px;
+  left: 0;
+  height: 200%;
+  overflow: hidden;
+  width: 250px;
+  z-index: 5;
+}
+.nav{
+  background-color: rgba(211,211,211,.86);
+  position:fixed;
+  top: 0;
+  left: 0;
+  padding-top: 15%;
+  height: 100%;
+  width: 247px;
+}
+a{
+  color: #028482;
+  text-decoration: none;
+  transition: color .5s;
+}
+a:hover{
+  color: white;
+}
+.left-float{
+  float: left;
+  margin: 5px 15px 0 0;
+  width: 275px;
+}
+.right-float{
+  float: right;
+  margin: 5px 0 5px 15px;
+  width: 275px;
+}
+.page{
+  margin-left: 250px;
+}
+.nav li{
+  margin-left: 10px;
+}
+.rightBand{
+  background-color: #028482;
+  float:right;
+  height: 200%;
+  width: 3px;
+}
+
+.social{
+  background: url('http://brandonsetter.com/demos/super-massive-css-sprite-social-icon-set/supermassivecsspriteicons.png') no-repeat;
+  margin-left: 0;
+}
+
+.title{
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 50px;
+}
+
+.title img{
+  margin-left: -20px;
+  width: 150px;
+}
+
+.title div{
+  margin-top: -10px;
+}
+
+.secondaryNavTabs{
+  margin-top: 40px;
+  font-size: 12px;
+}
+
+/* Social Media Sprites */
+.socialMediaSharing{
+  width: 250px;
+}
+.social{
+  border: 1px solid rgba(0,0,0,0);
+  float: left;
+  list-style-type: none;
+  position: relative;
+  left: -15%;
+  top: 80px;
+  width: 32px;
+  height: 32px;
+  transition: background-position 0.02s;
+}
+
+.emailContact{
+  background-position: 0 -1624px;
+}
+.linkedInContact{
+  background-position: 0 -292px;
+}
+
+.facebookContact{
+  background-position: 0 -74px;
+}
+.twitterContact{
+  background-position: 0 -658px;
+}
+
+.instagramContact{
+  background-position: 0 -730px;
+}
+.emailContact:hover{
+  background-position: -38px -1624px;
+}
+.linkedInContact:hover{
+  background-position: -38px -292px;
+}
+
+.facebookContact:hover{
+  background-position: -38px -74px;
+}
+.twitterContact:hover{
+  background-position: -38px -658px;
+}
+
+.instagramContact:hover{
+  background-position: -38px -730px;
+}
