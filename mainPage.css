@@ -84,6 +84,9 @@ a:hover{
   margin-top: -10px;
 }
 
+img{
+  float: left;
+}
 .secondaryNavTabs{
   margin-top: 40px;
   font-size: 12px;
