@@ -1,2 +1,0 @@
-export ADUSER=yourActiveDirectoryUserName
-export JUMPBOXNAME=theNameOfTheJumpBoxAssignedToYou
